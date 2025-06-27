@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven' // Tên Maven trong Global Tool Configuration
-        jdk 'JDK'     // Tên JDK trong Global Tool Configuration
+        maven 'Maven 3.9.10' // Tên Maven trong Global Tool Configuration
+        jdk 'JDK 17.0.9'     // Tên JDK trong Global Tool Configuration
     }
     stages {
         stage('Checkout') {
